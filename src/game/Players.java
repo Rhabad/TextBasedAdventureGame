@@ -66,6 +66,9 @@ public class Players {
         this.specialitation = claseElegida;
     }
 
+    public int getLevet(){
+        return level;
+    }
 
     @Override
     public String toString(){

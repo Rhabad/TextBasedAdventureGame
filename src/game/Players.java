@@ -1,3 +1,5 @@
+package game;
+
 public class Players {
     private String name;
     private String race;

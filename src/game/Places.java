@@ -19,5 +19,7 @@ public class Places {
         }
     }
 
-
+    public String[] getNombreLugar() {
+        return nombreLugar;
+    }
 }

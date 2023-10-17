@@ -20,7 +20,7 @@ public class Players {
         Scanner entrada = new Scanner(System.in);
         String[] clases = {"Guerrero", "Mago", "Picaro", "Sacerdote", "Cazador"};
 
-        System.out.print("Ahora eliga la clase: ");
+        System.out.print("Eliga la clase: ");
         int eleccion = entrada.nextInt();
 
         String claseElegida = clases[eleccion-1];

@@ -1,8 +1,5 @@
 package playing;
 
-import game.Players;
-import game.Util;
-
 import java.util.Scanner;
 
 public class Main {
@@ -19,7 +16,7 @@ public class Main {
 
             switch (opcion){
                 case 1:
-                    
+
                     break;
                 case 2:
                     util.mostrarClases();

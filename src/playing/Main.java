@@ -46,9 +46,26 @@ public class Main {
         System.out.println("¡EMPIEZA LA AVENTURA!");
         System.out.println("-----------------------");
 
-        places.lugares(players);
 
+        String[] zonas = places.getNombreLugar();
+        while (true){
+            System.out.println("1. Ingresar");
+            int opcion = entrada.nextInt();
 
+            int zonaElegida;
+            if (opcion == 1){
+                places.lugares(players);
+                System.out.print("Elegir zona(1-3): ");
+                zonaElegida = entrada.nextInt()-1;
+                System.out.println("Has entrado en "+zonas[zonaElegida]);
+            }
+
+            boolean instance = true;
+            while (instance){
+                
+            }
+
+        }
 
     }
 }

@@ -1,7 +1,7 @@
 package game;
 
 public class Places {
-    private String[] nombreLugar = {"dg1", "pueblo semilla", "bosque boscoso"};
+    private String[] nombreLugar = {"1. dg1", "2. pueblo semilla", "3. bosque boscoso"};
 
 
     public void lugares(Players pla){

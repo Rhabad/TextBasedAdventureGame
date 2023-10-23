@@ -1,5 +1,6 @@
 package playing;
 
+import game.Places;
 import game.Players;
 
 import java.util.Scanner;
@@ -10,6 +11,7 @@ public class Main {
 
         Util util = new Util();
         Players players = null;
+        Places places = new Places();
 
         do {
             System.out.println("----- MENU -----");
@@ -40,6 +42,11 @@ public class Main {
 
         }while (players == null);
 
+        System.out.println("-----------------------");
+        System.out.println("¡EMPIEZA LA AVENTURA!");
+        System.out.println("-----------------------");
+
+        places.lugares(players);
 
 
 

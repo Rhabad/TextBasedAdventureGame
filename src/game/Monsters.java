@@ -3,8 +3,8 @@ package game;
 import java.util.*;
 
 public class Monsters{
-    private int salud = 100;
-    private int energia = 100;
+    private int salud = 50;
+    private int energia = 50;
 
     private Map<String, String> monstruo = new HashMap<>(){{
         put("Goblin", " Humanoide");

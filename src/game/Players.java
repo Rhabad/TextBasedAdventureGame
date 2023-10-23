@@ -8,8 +8,8 @@ public class Players {
     private String specialitation;
     private int level;
 
-    private int salud = 100;
-    private int energia = 100;
+    private int salud = 30;
+    private int energia = 30;
 
     private final int levelForDefect = 1;
 

@@ -6,15 +6,13 @@ public class Places {
 
     public void lugares(Players pla){
         if (pla.getLevet() <= 5){
-            System.out.println("Zonas: ");
+            System.out.println("Zonas Disponibles: ");
             System.out.println(nombreLugar[0]);
-        }
-        if (pla.getLevet() <= 10) {
-            System.out.println("Zonas: ");
+        }else if (pla.getLevet() <= 10) {
+            System.out.println("Zonas Disponibles: ");
             System.out.println(nombreLugar[0]+"\n"+nombreLugar[1]);
-        }
-        if (pla.getLevet() <= 15) {
-            System.out.println("Zonas: ");
+        }else if (pla.getLevet() <= 15) {
+            System.out.println("Zonas Disponibles: ");
             System.out.println(nombreLugar[0]+"\n"+nombreLugar[1]+"\n"+nombreLugar[2]);
         }
     }

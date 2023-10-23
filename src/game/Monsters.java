@@ -3,6 +3,9 @@ package game;
 import java.util.*;
 
 public class Monsters{
+    private int salud = 100;
+    private int energia = 100;
+
     private Map<String, String> monstruo = new HashMap<>(){{
         put("Goblin", " Humanoide");
         put("Jabali", " Bestia");
@@ -58,6 +61,6 @@ public class Monsters{
     }
 
     public String toString(){
-        return this.monstruo+" "+nivelMonstruo;
+        return this.monstruo+" || "+nivelMonstruo+" || "+salud+" || "+energia;
     }
 }

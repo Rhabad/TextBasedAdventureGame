@@ -8,6 +8,9 @@ public class Players {
     private String specialitation;
     private int level;
 
+    private int salud = 100;
+    private int energia = 100;
+
     private final int levelForDefect = 1;
 
     public Players(String name, String race){
@@ -40,6 +43,8 @@ public class Players {
         return "Nombre: "+this.name+"\n" +
                 "Raza: "+this.race+"\n" +
                 "Clase: "+this.specialitation+"\n" +
-                "NIvel: "+this.level;
+                "Nivel: "+this.level+"\n" +
+                "Salud: "+this.salud+"\n" +
+                "Energia: "+this.energia;
     }
 }

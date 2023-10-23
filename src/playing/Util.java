@@ -54,7 +54,5 @@ public class Util {
         System.out.println();
     }
 
-    public void mostrarEstadoPersonaje(){
-
-    }
+    
 }

@@ -54,5 +54,13 @@ public class Util {
         System.out.println();
     }
 
+    //avanza, encuentra mosntruo de manera aleatoria
+    public boolean sucesosDelaZona(){
+        boolean encuentro = false;
+        //encontro monstruo, comienza enfrentameinto
 
+        //no encuentra nada, continua avanzando
+
+        return true;
+    }
 }

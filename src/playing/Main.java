@@ -13,6 +13,8 @@ public class Main {
         Players players = null;
         Places places = new Places();
 
+
+        //creacion del personaje
         do {
             System.out.println("----- MENU -----");
             System.out.println("1. Crear personaje\n" +
@@ -39,32 +41,39 @@ public class Main {
                     System.out.println("ERROR, OPCION ERRONEA");
                     break;
             }
-
         }while (players == null);
 
         System.out.println("-----------------------");
         System.out.println("¡EMPIEZA LA AVENTURA!");
         System.out.println("-----------------------");
 
-
+        //zonas, sucesos, mosntruos y la aventura
         String[] zonas = places.getNombreLugar();
-        while (true){
-            System.out.println("1. Ingresar");
+        boolean empezarAventura = true;
+        while (empezarAventura){
+            System.out.println("1. Ingresar" +
+                    "\n2. Salir");
             int opcion = entrada.nextInt();
 
             int zonaElegida;
+            //entramos a jugar
             if (opcion == 1){
                 places.lugares(players);
                 System.out.print("Elegir zona(1-3): ");
                 zonaElegida = entrada.nextInt()-1;
                 System.out.println("Has entrado en "+zonas[zonaElegida]);
+
+                //la aventura, monstruos y cosas mas
+                boolean instance = true;
+                while (instance){
+
+                }
             }
 
-            boolean instance = true;
-            while (instance){
-                
+            //salimos
+            if (opcion == 2){
+                empezarAventura = false;
             }
-
         }
 
     }
